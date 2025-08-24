@@ -1,0 +1,689 @@
+{
+  "version": "korquad-1.0",
+  "data": [
+    {
+      "title": "KDS 14 20 52 철근 이음 설계기준",
+      "paragraphs": [
+        {
+          "context": "철근의 이음은 설계도 또는 시방에서 요구하거나 허용한 경우, 또는 책임구조기술자가 승인한 경우에만 허용된다.",
+          "qas": [
+            {
+              "id": "splice_001",
+              "question": "철근의 이음은 언제 허용됩니까?",
+              "answers": [
+                { "text": "설계도 또는 시방에서 요구하거나 허용한 경우, 또는 책임구조기술자가 승인한 경우", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "인장 이형철근의 접침이음길이는 A등급과 B등급으로 구분하며 모두 300 mm 이상이어야 한다.",
+          "qas": [
+            {
+              "id": "splice_002",
+              "question": "인장 이형철근의 접침이음길이 최소값은 얼마입니까?",
+              "answers": [
+                { "text": "300 mm 이상", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "splice_003",
+              "question": "인장 이형철근 접침이음 등급 구분은 무엇입니까?",
+              "answers": [
+                { "text": "A등급과 B등급", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "A등급 접침이음은 소요철근량이 비교적 작거나 일부만 이음되는 경우 등 특정 조건에서 허용된다.",
+          "qas": [
+            {
+              "id": "splice_004",
+              "question": "A등급 접침이음은 언제 적용할 수 있습니까?",
+              "answers": [
+                { "text": "소요철근량이 비교적 작거나 일부만 이음되는 경우 등 특정 조건", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "B등급 접침이음은 A등급 조건에 해당하지 않거나 더욱 엄격한 조건이 필요한 경우 적용한다.",
+          "qas": [
+            {
+              "id": "splice_005",
+              "question": "B등급 접침이음은 어떤 경우 적용합니까?",
+              "answers": [
+                { "text": "A등급 조건에 해당하지 않거나 더욱 엄격한 조건이 필요한 경우", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "압축철근의 접침이음길이는 300 mm 이상이어야 하며, 콘크리트 설계기준압축강도가 21 MPa 미만일 경우 1/3 증가시켜야 한다.",
+          "qas": [
+            {
+              "id": "splice_006",
+              "question": "압축철근 접침이음 최소길이와 저강도 콘크리트에서의 조정은?",
+              "answers": [
+                { "text": "300 mm 이상이며 21 MPa 미만일 경우 1/3 증가", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "서로 접촉되지 않은 평행 철근의 접침이음은 횡방향으로 소요 접침이음길이의 1/5 또는 150 mm 중 큰 값 이상 이격해야 한다.",
+          "qas": [
+            {
+              "id": "splice_007",
+              "question": "서로 접촉되지 않은 평행 철근의 접침이음 이격 기준은?",
+              "answers": [
+                { "text": "소요 접침이음길이의 1/5 또는 150 mm 중 큰 값 이상 이격", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "다발철근의 접침이음길이는 다발 내 개별 철근을 기준으로 산정한다.",
+          "qas": [
+            {
+              "id": "splice_008",
+              "question": "다발철근의 접침이음길이는 무엇을 기준으로 산정합니까?",
+              "answers": [
+                { "text": "다발 내 개별 철근 기준", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "용접이음과 기계적 이음은 KS 등 관련 기준과 인정 규정을 만족해야 한다.",
+          "qas": [
+            {
+              "id": "splice_009",
+              "question": "용접이음과 기계적 이음의 기본 요구사항은?",
+              "answers": [
+                { "text": "KS 등 관련 기준과 인정 규정 만족", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "기계적 이음은 내구 및 내진 성능 요구를 충족하는 등급을 사용해야 한다.",
+          "qas": [
+            {
+              "id": "splice_010",
+              "question": "기계적 이음에서 충족해야 하는 성능 요구는?",
+              "answers": [
+                { "text": "내구 및 내진 성능 요구 충족", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "기계적 이음의 위치는 이음부가 집중되지 않도록 배치해야 한다.",
+          "qas": [
+            {
+              "id": "splice_011",
+              "question": "기계적 이음의 배치 원칙은 무엇입니까?",
+              "answers": [
+                { "text": "이음부가 집중되지 않도록 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "용접이형철망의 접침이음 최소 길이는 1.3 l_d 이상 또는 200 mm 이상이어야 한다.",
+          "qas": [
+            {
+              "id": "splice_012",
+              "question": "용접이형철망의 접침이음 최소 길이는?",
+              "answers": [
+                { "text": "1.3 l_d 이상 또는 200 mm 이상", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "용접이형철망 접침이음에서 교차철선 사이의 간격은 50 mm 이상이어야 한다.",
+          "qas": [
+            {
+              "id": "splice_013",
+              "question": "용접이형철망 접침이음 시 교차철선 간 최소 간격은?",
+              "answers": [
+                { "text": "50 mm 이상", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "용접원형철망의 접침이음은 소요철근량 비율에 따라 최소 접침이음길이가 달라진다.",
+          "qas": [
+            {
+              "id": "splice_014",
+              "question": "용접원형철망 접침이음길이는 무엇에 따라 달라집니까?",
+              "answers": [
+                { "text": "소요철근량 비율", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "이음은 인장력이 상대적으로 작은 구간이나 구속이 양호한 구간에 배치하는 것이 원칙이다.",
+          "qas": [
+            {
+              "id": "splice_015",
+              "question": "이음 위치 선정의 기본 원칙은?",
+              "answers": [
+                { "text": "인장력이 작거나 구속이 양호한 구간에 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "기둥 철근의 기계적 이음은 해당 등급의 성능을 만족하고 이음부가 서로 떨어지도록 배치해야 한다.",
+          "qas": [
+            {
+              "id": "splice_016",
+              "question": "기둥 철근 기계적 이음의 배치와 성능 요구는?",
+              "answers": [
+                { "text": "등급 성능 만족과 이음부 상호 이격 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "인장 접침이음은 A등급과 B등급 모두 300 mm 이상의 최소길이를 만족해야 한다.",
+          "qas": [
+            {
+              "id": "splice_017",
+              "question": "인장 접침이음의 최소길이 공통 기준은?",
+              "answers": [
+                { "text": "300 mm 이상", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "압축 접침이음은 콘크리트 강도에 따라 보정되며 21 MPa 미만이면 이음길이를 1/3 증가시킨다.",
+          "qas": [
+            {
+              "id": "splice_018",
+              "question": "압축 접침이음에서 저강도 콘크리트에 대한 조정은?",
+              "answers": [
+                { "text": "21 MPa 미만이면 1/3 증가", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "같은 단면 내에서 다수의 이음이 필요한 경우 이음부가 한 구역에 집중되지 않도록 분산 배치해야 한다.",
+          "qas": [
+            {
+              "id": "splice_019",
+              "question": "다수 이음이 필요한 경우의 배치 원칙은?",
+              "answers": [
+                { "text": "이음부 분산 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음 설계 시 단위는 길이는 mm, 강도는 MPa로 통일하여 사용한다.",
+          "qas": [
+            {
+              "id": "splice_020",
+              "question": "이음 설계 시 권장 단위 체계는?",
+              "answers": [
+                { "text": "길이 mm, 강도 MPa", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "접침이음길이는 피복과 간격 등 상세조건과 구속조건을 반영하여 결정한다.",
+          "qas": [
+            {
+              "id": "splice_021",
+              "question": "접침이음길이를 결정할 때 반영해야 할 사항은?",
+              "answers": [
+                { "text": "피복·간격 등 상세와 구속조건", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "기계적 이음은 인장·압축 성능시험 결과에 따른 등급 체계를 만족해야 한다.",
+          "qas": [
+            {
+              "id": "splice_022",
+              "question": "기계적 이음 등급은 무엇을 근거로 합니까?",
+              "answers": [
+                { "text": "인장·압축 성능시험 결과에 따른 등급 체계", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음의 품질관리는 시공 전 승인된 상세와 시공 중 배근·길이·이격·용접 품질을 확인하는 절차로 수행한다.",
+          "qas": [
+            {
+              "id": "splice_023",
+              "question": "이음 품질관리는 어떤 항목을 확인합니까?",
+              "answers": [
+                { "text": "상세, 배근, 길이, 이격, 용접 품질 확인", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "교차철선 간격은 이음 성능에 영향을 주며 용접철망 접침이음에서는 50 mm 이상이 요구된다.",
+          "qas": [
+            {
+              "id": "splice_024",
+              "question": "용접철망 접침이음에서 교차철선 간 최소 간격은?",
+              "answers": [
+                { "text": "50 mm 이상", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "용접이형철망 접침이음 최소 길이는 이음부 겹침길이로 1.3 l_d 이상 또는 200 mm 이상이어야 한다.",
+          "qas": [
+            {
+              "id": "splice_025",
+              "question": "용접이형철망 접침이음의 겹침 최소길이는?",
+              "answers": [
+                { "text": "1.3 l_d 이상 또는 200 mm 이상", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "용접원형철망의 접침이음 최소길이는 소요철근량 대비 배근 비율에 따라 다르게 적용한다.",
+          "qas": [
+            {
+              "id": "splice_026",
+              "question": "용접원형철망 접침이음 최소길이 결정 기준은?",
+              "answers": [
+                { "text": "소요철근량 대비 배근 비율", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음 위치는 전단이 과도하게 큰 구역을 피하고 구속이 충분한 구역을 우선 고려한다.",
+          "qas": [
+            {
+              "id": "splice_027",
+              "question": "이음 위치 선정 시 피해야 할 구역은?",
+              "answers": [
+                { "text": "전단이 과도하게 큰 구역", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "기계적 이음은 시공성, 품질관리 용이성, 반복 하중에 대한 성능을 종합 고려하여 선정한다.",
+          "qas": [
+            {
+              "id": "splice_028",
+              "question": "기계적 이음 선정 시 고려 요소는?",
+              "answers": [
+                { "text": "시공성, 품질관리, 반복하중 성능", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "용접이음은 용접부 취약을 방지하기 위해 용접자격, 용접상세, 검사 방법을 준수해야 한다.",
+          "qas": [
+            {
+              "id": "splice_029",
+              "question": "용접이음에서 반드시 준수해야 할 사항은?",
+              "answers": [
+                { "text": "용접자격, 용접상세, 검사 방법 준수", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음부의 최소 피복 및 최소 간격은 부착 성능과 균열 제어를 위해 설계 기준을 따른다.",
+          "qas": [
+            {
+              "id": "splice_030",
+              "question": "이음부에서 피복 및 간격의 설계 근거는?",
+              "answers": [
+                { "text": "부착 성능과 균열 제어 확보를 위한 기준", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "보 부재의 인장측 이음은 모멘트가 작은 구간으로 분산 배치하는 것이 바람직하다.",
+          "qas": [
+            {
+              "id": "splice_031",
+              "question": "보 인장측 이음은 어디에 배치하는 것이 바람직합니까?",
+              "answers": [
+                { "text": "모멘트가 작은 구간으로 분산 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "기둥 종방향 철근의 이음은 층간 이음 집중을 피하고 서로 교호 배치하도록 계획한다.",
+          "qas": [
+            {
+              "id": "splice_032",
+              "question": "기둥 종방향 철근 이음 배치 원칙은?",
+              "answers": [
+                { "text": "층간 이음 집중을 피하고 교호 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "벽체 종방향 철근의 이음은 경계요소의 구속 조건을 고려하여 충분한 길이와 간격을 확보한다.",
+          "qas": [
+            {
+              "id": "splice_033",
+              "question": "벽체 이음 설계 시 고려할 사항은?",
+              "answers": [
+                { "text": "경계요소 구속 조건과 충분한 길이·간격 확보", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "슬래브 배근의 이음은 배근 패턴의 연속성을 해치지 않도록 규칙적으로 배치한다.",
+          "qas": [
+            {
+              "id": "splice_034",
+              "question": "슬래브 배근 이음 배치 시 원칙은?",
+              "answers": [
+                { "text": "배근 패턴 연속성을 해치지 않는 규칙적 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "접침이음 길이 산정 시 표면 도막, 철근 위치, 횡보강 상태 등 상세조건을 반영해 길이를 조정한다.",
+          "qas": [
+            {
+              "id": "splice_035",
+              "question": "접침이음 길이 조정에 반영되는 상세조건은?",
+              "answers": [
+                { "text": "표면 도막, 철근 위치, 횡보강 상태 등", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음부의 검사 항목에는 이음길이, 이격, 피복, 용접 품질 및 기계적 이음 체결 상태가 포함된다.",
+          "qas": [
+            {
+              "id": "splice_036",
+              "question": "이음부 검사 시 확인해야 할 항목은?",
+              "answers": [
+                { "text": "이음길이, 이격, 피복, 용접 품질, 기계적 이음 체결 상태", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "기계적 이음 적용 시 제품 인증서와 시험 성적서를 통한 성능 검증이 필요하다.",
+          "qas": [
+            {
+              "id": "splice_037",
+              "question": "기계적 이음 적용 전에 필요한 검증 서류는?",
+              "answers": [
+                { "text": "제품 인증서와 시험 성적서", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "현장 조건으로 인해 이음 길이를 확보하기 어려운 경우 기계적 이음으로 대체할 수 있다.",
+          "qas": [
+            {
+              "id": "splice_038",
+              "question": "이음 길이 확보가 어려울 때 대안은?",
+              "answers": [
+                { "text": "기계적 이음으로 대체", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "내진 설계에서 이음부의 성능은 반복하중에 대한 내력 유지와 연성 확보가 중요하다.",
+          "qas": [
+            {
+              "id": "splice_039",
+              "question": "내진 설계에서 이음부 성능의 핵심은?",
+              "answers": [
+                { "text": "반복하중 내력 유지와 연성 확보", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "보 강단부와 같이 응력 집중이 예상되는 구역에서는 이음을 피하는 것이 좋다.",
+          "qas": [
+            {
+              "id": "splice_040",
+              "question": "응력 집중 구역에서 이음 배치 원칙은?",
+              "answers": [
+                { "text": "이음을 피한다", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "전단이 큰 지점 부근에서는 이음을 피하고 필요 시 구속을 강화하여 배치한다.",
+          "qas": [
+            {
+              "id": "splice_041",
+              "question": "전단이 큰 지점 부근의 이음 배치 원칙은?",
+              "answers": [
+                { "text": "이음을 피하고 필요 시 구속 강화 후 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "열화 환경에서는 이음부의 피복과 방청 대책을 강화해야 한다.",
+          "qas": [
+            {
+              "id": "splice_042",
+              "question": "열화 환경에서 이음부 설계 시 주의사항은?",
+              "answers": [
+                { "text": "피복과 방청 대책 강화", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음부 설계는 도면과 시방서의 상세를 우선하며 현장 변경 시 적정성 검토를 실시한다.",
+          "qas": [
+            {
+              "id": "splice_043",
+              "question": "현장 변경이 필요한 경우 이음부 설계 절차는?",
+              "answers": [
+                { "text": "도면·시방서 상세 우선, 변경 시 적정성 검토", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "현장 시공 허용오차를 고려하여 이음길이와 이격을 계획한다.",
+          "qas": [
+            {
+              "id": "splice_044",
+              "question": "시공 허용오차는 이음 설계에 어떻게 반영합니까?",
+              "answers": [
+                { "text": "이음길이와 이격 계획에 반영", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "코너부와 개구부 주변 이음은 인장력 흐름을 고려하여 배치한다.",
+          "qas": [
+            {
+              "id": "splice_045",
+              "question": "코너부와 개구부 주변 이음 배치 시 고려사항은?",
+              "answers": [
+                { "text": "인장력 흐름 고려 배치", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "다층 구조물에서 층별로 이음 집합을 피하고 층간 분산하도록 계획한다.",
+          "qas": [
+            {
+              "id": "splice_046",
+              "question": "다층 구조물에서 이음의 층간 배치 원칙은?",
+              "answers": [
+                { "text": "층별 집합을 피하고 층간 분산", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음부 철근 배근도에는 이음길이, 이격, 피복, 구속철근 상세가 명확히 표기되어야 한다.",
+          "qas": [
+            {
+              "id": "splice_047",
+              "question": "이음부 철근 배근도에 반드시 표기해야 할 사항은?",
+              "answers": [
+                { "text": "이음길이, 이격, 피복, 구속철근 상세", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "품질 시험은 필요 시 시편 제작 또는 현장 인발 시험 등으로 이음 성능을 확인한다.",
+          "qas": [
+            {
+              "id": "splice_048",
+              "question": "이음 성능 품질 시험 방법은?",
+              "answers": [
+                { "text": "시편 제작 또는 현장 인발 시험 등으로 확인", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "시공 단계에서 이음부가 콘크리트 타설과 진동에 의해 변형되지 않도록 지지와 고정을 확보한다.",
+          "qas": [
+            {
+              "id": "splice_049",
+              "question": "타설 및 진동 과정에서 이음부 안정성 확보 방법은?",
+              "answers": [
+                { "text": "지지와 고정 확보", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+
+        {
+          "context": "이음부는 균열 제어를 위해 적절한 스터럽 구속과 최소 피복을 확보해야 한다.",
+          "qas": [
+            {
+              "id": "splice_050",
+              "question": "균열 제어 관점에서 이음부의 핵심 상세는?",
+              "answers": [
+                { "text": "스터럽 구속과 최소 피복 확보", "answer_start": 0 }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
